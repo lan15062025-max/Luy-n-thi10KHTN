@@ -103,7 +103,7 @@ export default function App() {
             <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-indigo-200">
               <span className="font-black text-xl">9</span>
             </div>
-            <span className="font-bold text-slate-900 hidden sm:block">KHTN 9 - Ôn Thi Vào 10</span>
+            <span className="font-bold text-slate-900 hidden sm:block">LUYỆN ĐỀ THI KHTN VÀO 10</span>
           </div>
           
           <div className="flex items-center gap-4">
@@ -169,7 +169,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="mt-20 py-10 border-t border-slate-200 text-center">
-        <p className="text-slate-400 text-sm">© 2024 Hệ thống ôn luyện KHTN 9. Chúc các bạn ôn thi tốt!</p>
+        <p className="text-slate-400 text-sm">© 2024 LUYỆN ĐỀ THI KHTN VÀO 10. Chúc các bạn ôn thi tốt!</p>
       </footer>
     </div>
   );
