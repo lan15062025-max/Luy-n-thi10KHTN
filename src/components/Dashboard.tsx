@@ -212,7 +212,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onStartQuiz, history }) =>
         </div>
       </div>
 
-      {/* History Table */}
+      {/* Advanced Practice Section */}
       <div className="quiz-card bg-amber-50 border-amber-100">
         <div className="flex items-center gap-2 mb-6">
           <div className="w-10 h-10 bg-amber-100 text-amber-600 rounded-lg flex items-center justify-center">

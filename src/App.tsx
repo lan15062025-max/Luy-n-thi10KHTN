@@ -40,12 +40,12 @@ export default function App() {
     localStorage.setItem('khtn9_quiz_history', JSON.stringify(newHistory));
   };
 
-  const handleStartQuiz = (mode: 'Thi thử' | 'Luyện tập', subject?: Subject, count: number = 40, topic?: string) => {
+  const handleStartQuiz = (mode: 'Thi thử' | 'Luyện tập', subject?: Subject, count: number = 40, topic?: string, level?: string) => {
     let quizQuestions: Question[] = [];
     if (mode === 'Thi thử') {
       quizQuestions = getExamQuestions();
     } else {
-      quizQuestions = getRandomQuestions(count, subject, topic);
+      quizQuestions = getRandomQuestions(count, subject, topic, level);
     }
     
     setQuestions(quizQuestions);
